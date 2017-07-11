@@ -15,7 +15,7 @@ module.exports = function (config){
         reporters: ['mocha'],
         client: {
             mocha: {
-                timeout: '500'
+                timeout: '5000'
             }
         },
         files: [
